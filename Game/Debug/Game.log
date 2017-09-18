@@ -1,0 +1,4 @@
+﻿  game.c
+c:\users\christopher\documents\visual studio 2015\projects\game\src\game.c(43): warning C4305: '+=': truncation from 'double' to 'float'
+  Game.vcxproj -> c:\users\christopher\documents\visual studio 2015\Projects\Game\\Game.exe
+  Game.vcxproj -> c:\users\christopher\documents\visual studio 2015\Projects\Game\\Game.pdb (Partial PDB)
