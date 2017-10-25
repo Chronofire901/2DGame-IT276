@@ -1,0 +1,6 @@
+entity: player
+entity: bulletstraight
+obj:
+entity: bullet
+obj: "images/bullet1.png"
+frames: 4

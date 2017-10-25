@@ -201,6 +201,10 @@ void gf2d_graphics_frame_delay()
     }
     gf2d_graphics.fps = 1000.0/MAX(SDL_GetTicks() - gf2d_graphics.then,0.001);
 }
+int gf2d_delta()
+{
+	return gf2d_graphics.now - gf2d_graphics.then;
+}
 
 void gf2d_grahics_next_frame()
 {

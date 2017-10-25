@@ -79,4 +79,5 @@ void gf2d_graphics_blit_surface_to_screen(SDL_Surface *surface,const SDL_Rect * 
  */
 SDL_Surface *gf2d_graphics_screen_convert(SDL_Surface **surface);
 
+int gf2d_delta();
 #endif

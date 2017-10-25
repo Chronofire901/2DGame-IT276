@@ -1,4 +1,7 @@
-﻿  game.c
-c:\users\christopher\documents\visual studio 2015\projects\game\src\game.c(43): warning C4305: '+=': truncation from 'double' to 'float'
-  Game.vcxproj -> c:\users\christopher\documents\visual studio 2015\Projects\Game\\Game.exe
-  Game.vcxproj -> c:\users\christopher\documents\visual studio 2015\Projects\Game\\Game.pdb (Partial PDB)
+﻿  g_entity.c
+c:\users\christopher\documents\visual studio 2015\projects\game\src\g_entity.c(81): warning C4013: 'gf2d_delta' undefined; assuming extern returning int
+c:\users\christopher\documents\visual studio 2015\projects\game\src\g_entity.c(212): warning C4013: 'gf2d_' undefined; assuming extern returning int
+c:\users\christopher\documents\visual studio 2015\projects\game\src\g_entity.c(212): warning C4047: '=': 'Sprite *' differs in levels of indirection from 'int'
+c:\users\christopher\documents\visual studio 2015\projects\game\src\g_entity.c(250): warning C4013: 'collision' undefined; assuming extern returning int
+g_entity.obj : error LNK2019: unresolved external symbol _gf2d_ referenced in function _gf2d_entity_spawn
+C:\Users\Christopher\documents\visual studio 2015\Projects\Game\\Game.exe : fatal error LNK1120: 1 unresolved externals
